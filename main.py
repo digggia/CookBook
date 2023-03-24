@@ -35,9 +35,11 @@ cook_book = [
 ]
 
 
-
 for dish in cook_book:
   print(f'{dish[0].title()}:')
   for ingridients in dish[1]:
     print(f'{ingridients[0]}, {ingridients[1]*person}, {ingridients[2]}')
   print('\n')
+
+
+print ('End')
